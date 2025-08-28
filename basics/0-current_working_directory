@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "$PWD" | sed 's/.*\(\/basics\)/\1/'
+pwd
+
