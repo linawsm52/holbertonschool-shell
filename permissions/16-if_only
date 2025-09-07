@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$1" = "Betty" ]
+if [ "$BETTY" = "Betty" ]
 then
     echo "Betty"
 fi
