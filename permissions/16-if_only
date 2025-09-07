@@ -1,6 +1,3 @@
 #!/bin/bash
-if [ "$BETTY" = "Betty" ]
-then
-    echo "Betty"
-fi
+chown --from=guillaume betty hello
 
