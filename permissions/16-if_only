@@ -1,2 +1,3 @@
 #!/bin/bash
-[ "$1" = "Betty" ] && echo "yes" || echo "no"
+[ "$1" = "Betty" ] && echo "Betty"
+
