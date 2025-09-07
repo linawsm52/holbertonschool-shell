@@ -1,7 +1,2 @@
 #!/bin/bash
-if [ "$1" = "Betty" ]
-then
-    echo "yes"
-else
-    echo "no"
-fi
+[ "$1" = "Betty" ] && echo "yes" || echo "no"
