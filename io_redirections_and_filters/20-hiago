@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i 's/\r$//' 20-hiago
+tr -d 'Cc'
