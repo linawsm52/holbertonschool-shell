@@ -1,2 +1,6 @@
 #!/bin/bash
-if [ "$(whoami)" = "root" ]; then chown vincent hello; fi
+# change owner of hello to vincent only if current owner is guillaume
+
+if [ "$(stat -c %U hello 2>/dev/null)" = "guillaume" ]; then
+    chown vincent hello
+fi
