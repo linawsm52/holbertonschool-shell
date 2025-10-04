@@ -1,6 +1,2 @@
 #!/bin/bash
-# change owner of hello to vincent only if current owner is guillaume
-
-if [ "$(stat -c %U hello 2>/dev/null)" = "guillaume" ]; then
-    chown vincent hello
-fi
+chown --from=guillaume vincent hello
